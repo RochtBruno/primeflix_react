@@ -1,0 +1,48 @@
+.filme-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding: 0 2%;
+}
+.filme-info h1 {
+  margin: 15px 0;
+}
+.filme-info img {
+  border-radius: 10px;
+  width: 700px;
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.filme-info h3 {
+  margin-top: 15px;
+}
+.filme-info p {
+  margin: 10px 0;
+}
+.area-btn button {
+  margin-right: 12px;
+  margin-top: 15px;
+  margin-left: 0;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px;
+  background-color: rgb(184, 183, 183);
+  transition: 0.3s;
+}
+.area-btn button:hover {
+  background-color: rgb(223, 14, 14);
+  color: white;
+}
+.area-btn a {
+  text-decoration: none;
+  color: black;
+}
+.area-btn a:hover {
+  background-color: rgb(223, 14, 14);
+  color: white;
+}
